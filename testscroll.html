@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    section{
+        width: 100%;
+        height: 100vh;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 100px;
+    }
+    section:nth-child(even){
+        background-color: #fff;
+        color: #000;
+    }
+    .scrolltop{
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        padding: 10px 15px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        border-radius:  1px solid #fff;
+        transition: all 0.5s ease 0;
+    }
+    .scrolltop:hover{
+        background-color: #f7f7f7;
+        color: #000;
+    }
+</style>
+<body>
+    <section>One</section>
+    <section>Two</section>
+    <section>Three</section>
+    <section>Four</section>
+    <section>Five</section>
+    
+    <div onclick="scrolltotop()" class="scrolltop">Top</div>
+    <script>
+        function scrolltotop(){
+            window.scrollTo(0, 0);
+        }
+    </script>
+</body>
+</html>

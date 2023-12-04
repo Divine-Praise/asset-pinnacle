@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>SIGNUP D-STORE</title>
+
+    <!-- link signup css -->
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <div class="main-form">
+        <form action="#" method="post" id="form">
+            <!-- heading -->
+            <h1>Create Account</h1>
+            <hr>
+            <!-- label/input -->
+            <div class="dbl-field">
+                <div class="field">
+                    <label for="fn">Firstname</label><br>
+                    <input type="text" name="fn" id="fn" placeholder="Firstname:" required><br>
+                    <label for="ln">Lastname</label><br>
+                    <input type="text" name="ln" id="ln" placeholder="Lastname:" required><br>
+                    <label for="Un">Username</label><br>
+                    <input type="text" name="un" id="un" placeholder="Username:" required><br>
+                </div>
+            </div>
+            <div class="dbl-field">
+                <div class="field">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Email:" required><br>
+                    <label for="num">Phone Number</label><br>
+                    <input type="number" name="num" id="num" placeholder="Phone:" required>
+                </div>
+            </div>
+            <div class="dbl-field">
+                <div class="field">
+                    <label for="pw">Password</label><br>
+                    <input type="password" name="pw" id="pw" placeholder="Password:" required><br>
+                    <label for="cw">Confirm Password</label><br>
+                    <input type="password" name="cw" id="cw" placeholder="Confirm Password:" required>
+                </div>
+            </div>
+            <div class="forget-password_termsandcons">
+                <div class="terms-con">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <a href="#">Terms/Condition</a>
+                </div>
+                <div class="forget-password">
+                    <a href="#">Forget Password?</a>
+                </div>
+            </div>
+            <!-- buttons -->
+            <div class="button">
+                <a href="#"><button type="submit" id="button">Create Account</button></a>
+            </div>
+        </form>
+    </div>
+
+    <!-- link signup js -->
+    <script src="js/signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Page</title>
+    <!-- Add Bootstrap CSS (you might need to adjust the paths) -->
+
+       <!-- link bootstrap -->
+       <script src="bootsrap/js/jquery-3.5.1.min.js"></script>
+       <script src="bootsrap/js/bootstrap.min.js"></script>
+       <script src="bootsrap/js/popper.min.js"></script>
+       <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">
+   
+       <!-- link style css -->
+       <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar-div">
+    <nav class="navbar navbar-expand-md navbar-light">
+        <a href="index.html" class="navbar-brand">
+            <img src="./images/D-stores-Logo.png" alt="D-shops Logo">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="home nav-item nav-link">HOME</a>
+                <div class="dropdown nav-item nav-link">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        COLLECTIONS <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="text-dark">PHONES</a></li>
+                        <li><a href="#" class="text-dark">LAPTOPS</a></li>
+                        <li><a href="#gadgett" class="text-dark">HOME GADGET</a></li>
+                        <li><a href="#" class="text-dark">WOMEN FASHION</a></li>
+                        <li><a href="#" class="text-dark">MEN FASHION</a></li>
+                    </ul>
+                </div>
+                <!-- Add the other dropdowns here -->
+            </div>
+            <a href="#" class="text-dark special nav-item nav-link">SPECIAL OFFERS!</a>
+        </div>
+    </nav>
+    <hr>
+    <div class="contact">
+        <div class="company-Phone-number">
+            <div class="fontawesome">
+                <!-- Your contact information here -->
+            </div>
+            <div class="search-bar bg-light">
+                <input type="search" name="search" id="search" placeholder="search" class="form-control">
+                <div class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        All Categories <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="text-dark">PHONES</a></li>
+                        <li><a href="#" class="text-dark">LAPTOPS</a></li>
+                        <li><a href="#" class="text-dark">WATCH</a></li>
+                        <li><a href="#" class="text-dark">HOME GADGET</a></li>
+                        <li><a href="#" class="text-dark">WOMEN FASHION</a></li>
+                        <li><a href="#" class="text-dark">MEN FASHION</a></li>
+                    </ul>
+                </div>
+                <i class="text-warning fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="cart">
+                <div class="cart-number">
+                    <span class="count">0</span>
+                    <i class="text-warning fa-solid fa-cart-shopping" id="cart-icon"></i>
+                </div>
+                <i class="text-warning fa-solid fa-heart"></i>
+            </div>
+            <div class="user">
+                <i class="text-dark fa-solid fa-user"></i>
+                <a href="signup.html" class="text-dark">LOGIN/SIGNUP</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Bootstrap JavaScript and jQuery (you might need to adjust the paths) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
